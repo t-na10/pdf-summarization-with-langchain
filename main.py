@@ -13,7 +13,7 @@ def main():
     # pdfのテキストを読み込む
     text = output_text(pdf_path, 1)
 
-    # promptの入力
+    # prompt入力
     your_prompt = input("Enter your prompt:")
     prompt = get_prompt(your_prompt, text)
 

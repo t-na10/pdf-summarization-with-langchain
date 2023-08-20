@@ -1,4 +1,3 @@
-# import library
 from PyPDF2 import PdfReader
 from langchain.prompts import PromptTemplate
 
